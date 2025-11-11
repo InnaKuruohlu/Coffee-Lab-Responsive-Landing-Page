@@ -1,6 +1,7 @@
 html{
   height: auto;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
   /*height: 1000vh;*/
 }
 
@@ -11,6 +12,11 @@ body{
   font-weight: 400;
   color: #F3EEEA;
   background-color: #F3EEEA;
+}
+
+a, button {
+  -webkit-user-drag: none;
+  user-select: none;
 }
 
 ul {
@@ -338,3 +344,4 @@ ul {
   opacity: 1;
   visibility: visible;
 }
+
