@@ -1,0 +1,110 @@
+/* Home Container*/
+.section-home{
+padding-bottom: 50px;
+}
+
+.home-container {
+  background-image: linear-gradient(rgba(92, 60, 25, .2)), url("images/home-section-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.welcome-text {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  flex-shrink: none;
+  text-shadow: 2px 2px 4px #000000, 2px 2px 4px #B0A695;
+}
+
+.roasted {
+  color: #B0A695;
+}
+
+.scroll-down-section{
+  position: absolute;
+  right: 120px;
+  bottom: 120px;
+  }
+
+.scroll-down-link{
+  font-size: 20px;
+  color: #F3EEEA;
+  cursor: pointer;
+  transition: color 0.2 ease;
+}
+
+.scroll-down-link:hover {
+  color: #B0A695;
+}
+
+@media screen and (max-width: 767px) {
+  .welcome-section-container {
+    min-width: 300px;
+  }
+  .welcome-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .scroll-down-link {
+    font-size: 16px;
+  }
+
+  .scroll-down-section{
+  right: 60px;
+  bottom: 60px;
+}
+.section-home{
+padding-bottom: 30px;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-section-container {
+    min-width: 600px;
+  }
+  .welcome-text {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .scroll-down-link{
+    font-size: 18px;
+  }
+
+    .scroll-down-section{
+    right: 80px;
+    bottom: 80px;
+}
+.section-home{
+padding-bottom: 40px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .welcome-text {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  .scroll-down-link {
+    font-size: 20px;
+  }
+
+  .scroll-down-section{
+  right: 120px;
+  bottom: 120px;
+}
+.section-home{
+padding-bottom: 50px;
+}
+}
+
+
+

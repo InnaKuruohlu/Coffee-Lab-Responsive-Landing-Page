@@ -1,0 +1,151 @@
+.review-section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.reviews-title{
+  margin-bottom: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -.02em;
+  color: #4a4238;
+}
+
+.container-review-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container-review-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 36px;
+  border-radius: 30px;
+  background-color: #EFE9E3;
+  border: 1px solid rgba(92, 60, 25, .05);
+  font-family: "Elms Sans", sans-serif;
+}
+
+.review-name{
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+  text-align: center;
+  color: #0c0c0c;
+}
+
+.review-location{
+  padding: 0;
+  margin: 0;
+  color: #0c0c0c;
+  font-weight: 600;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+  font-style: normal
+}
+
+.review-text{
+  color: #0c0c0c80;
+  width: 263px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -.02em;
+}
+
+.review-third{
+  display: flex;
+
+}
+
+.review-second{
+  display: flex;
+}
+
+
+@media screen and (max-width: 767px) {
+  .review-second{
+    display: none;
+  }
+
+  .review-third{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .review-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+ }
+
+ .reviews-title{
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: .92;
+ }
+
+  .container-review-items{
+    flex-direction: row;
+    gap: 16px;
+ }
+
+ .review-text{
+  width: 272px;
+  font-size: 16px;
+  line-height: 1.25;
+ }
+
+ .review-third{
+  display: none;
+ }
+
+ .review-second{
+  display: flex;
+ }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .review-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+
+ .reviews-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: .92;
+ }
+
+ .container-review-items{
+    flex-direction: row;
+    gap: 20px;
+ }
+
+ .review-text{
+  width: 298px;
+ }
+
+ .review-third{
+  display: flex;
+ }
+
+ .review-second{
+  display: flex;
+ }
+}
