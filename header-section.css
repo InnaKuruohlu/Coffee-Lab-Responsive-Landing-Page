@@ -308,11 +308,11 @@ ul {
 
 .header-mobile-icon-item  {
   color: #F3EEEA;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border: 1px solid rgba(243, 238, 234, 0.6);
   border-radius: 10px;
-  padding: 5px;
+  padding: 4px;
   transition: color 0.2s ease;
 }
 
@@ -344,4 +344,5 @@ ul {
   opacity: 1;
   visibility: visible;
 }
+
 
